@@ -1,0 +1,497 @@
+﻿<resources>
+
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+
+    <string name="choose_start_time">Mute start</string>
+    <string name="dialog_action">Next</string>
+    <string name="no_jobs_message">You don\'t have any mutes to show.</string>
+    <string name="daily">Check if you want to repeat on different days</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursay</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="channel_name">my_channel</string>
+    <string name="channel_description">channel description</string>
+    <string name="local_service_started">1234</string>
+    <string name="local_service_label">Sync service</string>
+    <string name="local_calendar">Local calendar</string>
+    <string name="today">Today</string>
+    <string name="tommorow">Tommorow</string>
+    <string name="action_setting">Settings</string>
+    <string name="action_sync_calendar">Sync with calendars</string>
+
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+
+
+    <string name="app_name">VelCare</string>
+    <string name="symptom">Symptoms</string>
+    <string name="hospital">Hospital details</string>
+    <!--<string name="common_diseases">Common Diseases</string>-->
+    <!--<string name="icon_author">Icons made by Roundicons (http://www.flaticon.com/authors/roundicons) from Flaticon (www.flaticon.com)</string>-->
+    <!--<string name="ambulance">Ambulance</string>-->
+    <string name="about">About</string>
+    <!--<string name="your_age">Your age</string>-->
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <!--<string name="concerned_body_part">Concerned body part</string>-->
+    <string name="symptom_header">Check yourself\nBefore you wreck yourself</string>
+    <!--<string name="submit">Submit</string>-->
+
+    <!--<string-array name="ages">-->
+    <!--<item>Select your age</item>-->
+    <!--<item>0 – 18</item>-->
+    <!--<item>19 – 30</item>-->
+    <!--<item>31 – 45</item>-->
+    <!--<item>46 – 60</item>-->
+    <!--<item>60+</item>-->
+    <!--</string-array>-->
+    <string-array name="body_parts">
+        <item>Concerned body area</item>
+        <item>Head area</item>
+        <item>Chest area</item>
+        <item>Abdomen</item>
+        <item>Back area</item>
+        <item>Pelvic area</item>
+        <item>Arm</item>
+        <item>Legs</item>
+    </string-array>
+    <string-array name="head_area">
+        <item>Select body part from head area</item>
+        <item>Head</item>
+        <item>Eyes</item>
+        <item>Nose</item>
+        <item>Face</item>
+        <item>Ears</item>
+        <item>Mouth</item>
+        <item>Jaw</item>
+        <item>Neck</item>
+    </string-array>
+    <string-array name="chest_area">
+        <item>Select body part from chest area</item>
+        <item>Chest</item>
+        <item>Side of chest</item>
+        <item>Sternum</item>
+    </string-array>
+    <string-array name="abdomen">
+        <item>Select body part from abdomen</item>
+        <item>Upper abdomen</item>
+        <item>Lower abdomen</item>
+    </string-array>
+    <string-array name="back_area">
+        <item>Select body part from back area</item>
+        <item>Back</item>
+        <item>Upper spine</item>
+        <item>Lower spine</item>
+    </string-array>
+    <string-array name="pelvic">
+        <item>Select body part from pelvic area</item>
+        <item>Pelvis</item>
+        <item>Genitals</item>
+        <item>Buttock</item>
+        <item>Hip</item>
+        <item>Groin</item>
+    </string-array>
+    <string-array name="arm">
+        <item>Select body part from arm</item>
+        <item>Shoulder</item>
+        <item>Armpit</item>
+        <item>Upper arm</item>
+        <item>Elbow</item>
+        <item>Fore arm</item>
+        <item>Wrist</item>
+        <item>Hand</item>
+        <item>Fingers</item>
+    </string-array>
+    <string-array name="legs">
+        <item>Select body part from legs</item>
+        <item>Thigh</item>
+        <item>Hamstring</item>
+        <item>Knee</item>
+        <item>Back of knee</item>
+        <item>Shin</item>
+        <item>Calf</item>
+        <item>Ankle</item>
+        <item>Foot</item>
+        <item>Toes</item>
+        <item>Sole</item>
+    </string-array>
+    <!--<string-array name="default_selection">-->
+    <!--<item>Concerned body part</item>-->
+    <!--</string-array>-->
+
+    <string-array name="first_aid">
+        <item>Abdominal pain in adults</item>
+        <item>Abdominal pain in children</item>
+        <item>Acetaminophen (Tylenol) poisoning</item>
+        <item>Alcohol intoxication</item>
+        <item>Allergic reaction</item>
+        <item>Amputation (Accidental)</item>
+        <item>Angina Pectoris</item>
+        <item>Animal bites</item>
+        <item>Ankle fracture</item>
+        <item>Ankle sprain</item>
+        <item>Anthrax</item>
+        <item>Aspirin poisoning</item>
+        <item>Asthma attack in adults</item>
+        <item>Asthma attack in children</item>
+        <item>Asthma in pregnancy</item>
+        <item>Asthma, exercise-induced</item>
+        <item>Battery ingestion</item>
+        <item>Black eye</item>
+        <item>Black widow spider bite</item>
+        <item>Bleeding - cuts or wounds</item>
+        <item>Bleeding during pregnancy</item>
+        <item>Bleeding under a nail</item>
+        <item>Bleeding in the eye</item>
+        <item>Blisters</item>
+        <item>Blood in urine</item>
+        <item>Bloody stools in children</item>
+        <item>Blue lips in children</item>
+        <item>Breathing problems in children</item>
+        <item>Broken arm in adults</item>
+        <item>Broken arm in children</item>
+        <item>Broken collarbone</item>
+        <item>Broken elbow</item>
+        <item>Broken finger in adults</item>
+        <item>Broken finger in children</item>
+        <item>Broken foot</item>
+        <item>Broken hand</item>
+        <item>Broken hip</item>
+        <item>Broken jaw</item>
+        <item>Broken leg</item>
+        <item>Broken nose</item>
+        <item>Broken shoulder blade</item>
+        <item>Broken toe</item>
+        <item>Broken or knocked out teeth</item>
+        <item>Brown recluse spider bite</item>
+        <item>Bruises in adults</item>
+        <item>Bruises in children</item>
+        <item>Burns in adults</item>
+        <item>Burns and scalds in children</item>
+        <item>CPR for adults</item>
+        <item>CPR for children</item>
+        <item>Carbon monoxide poisoning</item>
+        <item>Catfish sting</item>
+        <item>Chemical burn</item>
+        <item>Chemical eye burn</item>
+        <item>Chest injury</item>
+        <item>Chest pain</item>
+        <item>Choking in adults</item>
+        <item>Choking in children</item>
+        <item>Cold in children</item>
+        <item>Concussion</item>
+        <item>Congestion or stuffy nose in children</item>
+        <item>Constipation in children</item>
+        <item>Convulsions in children</item>
+        <item>Corneal abrasion</item>
+        <item>Corneal ulcer</item>
+        <item>Coughs in children</item>
+        <item>Crabs</item>
+        <item>Cradle cap in children</item>
+        <item>Crying and colic in babies</item>
+        <item>Cuts and bleeding in children</item>
+        <item>Cuts or lacerations</item>
+        <item>Cyanide poisoning</item>
+        <item>Dehydration in adults</item>
+        <item>Dehydration in children</item>
+        <item>Diaper rash</item>
+        <item>Diarrhea</item>
+        <item>Diarrhea in children</item>
+        <item>Dizziness</item>
+        <item>Drowning</item>
+        <item>Drowning in children</item>
+        <item>Drug allergy</item>
+        <item>Drug overdose</item>
+        <item>Ear - foreign body</item>
+        <item>Ear infections in children</item>
+        <item>Ear pain - diving</item>
+        <item>Eczema in infants</item>
+        <item>Elbow dislocation</item>
+        <item>Electric shock</item>
+        <item>Electric shock in children</item>
+        <item>Eye burns/Corneal burns</item>
+        <item>Eye - foreign object</item>
+        <item>Eye injuries</item>
+        <item>Eye injuries in children</item>
+        <item>Eyelid inflammation</item>
+        <item>Facial fracture</item>
+        <item>Fainting</item>
+        <item>Fever in adults</item>
+        <item>Fever in children</item>
+        <item>Finger dislocation</item>
+        <item>Finger injuries</item>
+        <item>First aid kits</item>
+        <item>Fishhook injuries</item>
+        <item>Flu (influenza) in children</item>
+        <item>Food poisoning</item>
+        <item>Frostbite</item>
+        <item>Gas pain in children</item>
+        <item>Gastroenteritis</item>
+        <item>Hand injury</item>
+        <item>Head injuries in children</item>
+        <item>Head injury</item>
+        <item>Headache</item>
+        <item>Heart attack</item>
+        <item>Heat Exhaustion</item>
+        <item>Heat rash in children</item>
+        <item>Heat stroke</item>
+        <item>Hiccups</item>
+        <item>Hives and angioedema</item>
+        <item>Hives in children</item>
+        <item>Human bites</item>
+        <item>Hyperventilation</item>
+        <item>Hypothermia</item>
+        <item>Inability to urinate</item>
+        <item>Insect bites/stings in children</item>
+        <item>Insect sting allergy</item>
+        <item>Insulin reaction</item>
+        <item>Iron poisoning</item>
+        <item>Jaundice in newborns</item>
+        <item>Jellyfish stings</item>
+        <item>Knee dislocation</item>
+        <item>Knee injury</item>
+        <item>Labor signs</item>
+        <item>Lice</item>
+        <item>Lightning strike</item>
+        <item>Low blood sugar</item>
+        <item>Migraine headache</item>
+        <item>Migraine headache in children</item>
+        <item>Mini stroke (Transient Ischemic Attack)</item>
+        <item>Miscarriage</item>
+        <item>Mountain sickness</item>
+        <item>Muscle strain</item>
+        <item>Nail infection (paronychia)</item>
+        <item>Nail injuries</item>
+        <item>Neck Strain</item>
+        <item>Nose - foreign body</item>
+        <item>Nosebleeds</item>
+        <item>Nursemaid elbow</item>
+        <item>Orchitis (Inflammation of the Testicle)</item>
+        <item>Palpitations</item>
+        <item>Panic attacks</item>
+        <item>Plant allergy</item>
+        <item>Poisoning</item>
+        <item>Poisoning in children</item>
+        <item>Puncture wound</item>
+        <item>Rabies</item>
+        <item>Rape/Sexual assault</item>
+        <item>Rashes in children</item>
+        <item>Rectal bleeding</item>
+        <item>Rectal - foreign object</item>
+        <item>Rectal pain</item>
+        <item>Reflux in children</item>
+        <item>Ricin poisoning</item>
+        <item>Ruptured tendon</item>
+        <item>Seizures emergencies</item>
+        <item>Seizures in children</item>
+        <item>Severe allergic reaction</item>
+        <item>Shark bite</item>
+        <item>Shock</item>
+        <item>Shoulder dislocation</item>
+        <item>Shoulder separation</item>
+        <item>Shoulder and neck pain</item>
+        <item>Skier\'s thumb</item>
+        <item>Slipped disk</item>
+        <item>Smoke inhalation</item>
+        <item>Snakebite</item>
+        <item>Splinters</item>
+        <item>Sprains and strains</item>
+        <item>Stringray injury</item>
+        <item>Stomachache and nausea in children</item>
+        <item>Stroke</item>
+        <item>Stye</item>
+        <item>Suicidal thoughts</item>
+        <item>Sunburn</item>
+        <item>Swallowed object</item>
+        <item>Tailbone injury</item>
+        <item>Teething pain</item>
+        <item>Testicular pain</item>
+        <item>Tetanus</item>
+        <item>The bends</item>
+        <item>Thermal burns</item>
+        <item>Ticks</item>
+        <item>Toothache</item>
+        <item>Toxic shock syndrome</item>
+        <item>Traveler\'s diarrhea</item>
+        <item>Using an Automated External Defibrillator</item>
+        <item>Vaginal bleeding</item>
+        <item>Vaginal - foreign body</item>
+        <item>Vertigo</item>
+        <item>Vomiting during pregnancy</item>
+        <item>Vomiting and nausea</item>
+        <item>Vomiting or spitting up in children</item>
+        <item>Whiplash</item>
+        <item>Wrist injury</item>
+    </string-array>
+
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--<string name="list_of_hospitals">List of hospitals</string>-->
+    <!--<string name="hospital_services">Hospital services</string>-->
+    <!--<string name="find_hospitals_by_state">Find hospitals by state</string>-->
+    <!--<string name="find_hospitals_by_specialisation">Find hospitals by specialisation</string>-->
+    <string name="get_to_the_nearest_hospital">Get to the nearest hospital</string>
+    <!--<string name="ambulance_services">Ambulance services</string>-->
+    <!--<string name="request_a_private_ambulance">Request a private ambulance</string>-->
+    <!--<string name="check_ambulance_availability">Check ambulance availability</string>-->
+    <string name="call_108">Call Emergency services</string>
+    <string name="doctor">Doctor details</string>
+    <!--<string name="doctor_services">Doctor services</string>-->
+    <!--<string name="find_doctors_by_specialisation">Find doctors by specialisation</string>-->
+    <!--<string name="request_urgent_doctor">Request urgent doctor</string>-->
+    <string name="first_aid_info">First aid info</string>
+    <string name="search">Search…</string>
+    <string name="services">Services</string>
+    <!--<string name="services_subtitle">Hospital|Doctor|Emergency</string>-->
+    <string name="symptom_subtitle">Prevention, better than cure</string>
+    <string name="first_aid_subtitle">You can save a life</string>
+
+    <!--<string name="title_activity_splash_screen">SplashScreen</string>-->
+    <!--<string name="dummy_button">Dummy Button</string>-->
+    <!--<string name="dummy_content">DUMMY\nCONTENT</string>-->
+
+    <!--ABOUT PAGE STRINGS-->
+    <!--<string name="about_header">About</string>-->
+    <string name="developers">Developers</string>
+    <string name="facebook_handles">Facebook handles\n(click on name to open profile)</string>
+    <string name="developer_prem_suman">Prem Suman\t\t(@PremSuman8)</string>
+    <string name="developer_prem_ankur">Prem Ankur\t\t(@Prem.Ankur.14)</string>
+    <string name="developer_vikash">Vikash Kumar\t\t(@VikashRuhelaCSE)</string>
+    <string name="developer_prateek">Prateek Sen\t\t(@Prateek.Sen.118)</string>
+    <!--<string name="developer_prembros">Anurodh</string>-->
+    <string name="contributors">Contributors</string>
+    <string name="about_the_app">About the App</string>
+    <string name="about_the_app_details">
+        Symptomator is a medical app designed to fulfil all your medical needs.
+        \n\nThis app packs the following features:
+        \n\t\t•\tSymptom checker
+        \n\t\t•\tFirst aid information
+        \n\t\t•\tMedical Services
+    </string>
+    <string name="symptom_checker">Symptom Checker</string>
+    <string name="symptom_checker_details">Check symptoms and view possible conditions by choosing your concerned body part.</string>
+    <string name="first_aid_info_details">Get all the first aid information you need, right under your fingertips.</string>
+    <!--<string name="meddical_services">Medical Services</string>-->
+    <string name="find_nearby_doctors_details">Find the registered doctors within 10 Km (6 miles) around you.
+        \n\nClick on a Marker to view the doctor\'s details, such as the phone number, address, location and website</string>
+    <string name="find_nearby_hospitals_details">Find the registered hospitals within 10 Km (6 miles) around you.
+        \n\nClick on a Marker to view the hospital\'s details, such as the phone number, address, location and website</string>
+    <string name="get_to_nearest_hospital_details">Get directions to the registered hospital nearest to you.
+        \n(uses Google Maps)</string>
+    <string name="get_to_nearest_doctor_details">Get directions to the registered doctor nearest to you.
+        \n(uses Google Maps)</string>
+    <string name="call_emergency_services_details">Call your national Emergency number in one click,
+        wherever you see the circular call button with a cross inside.</string>
+    <!--<string name="special_thanks">Special Thanks</string>-->
+    <!--<string name="special_thanks_details">My Parents for the support</string>-->
+    <!--<string name="email">premsuman8@gmail.com</string>-->
+    <string name="prembros">Anurodh</string>
+    <string name="visit_us_at">Visit us at:</string>
+    <string name="tell_us_what_you_d_like_to_search_for">Tell us what you\'d like to search for</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="permission_denied">I won\'t be able to assist you if you dont\'t let me.</string>
+    <!--<string name="google_play_services_not_available_error">Sorry, but we couldn\'t find Google Play Services on your device, make sure you have the latest one from play store and try again.</string>-->
+    <!--    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyCwmLEnjoalKDciZxizLlWTFLmg0vd7Csc
+    </string>
+    <string name="google_places_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyD8GHXtKntCRgbrTjN4YtT94epzA-cJpWY
+    </string>-->
+    <!--<string name="find">Find</string>-->
+    <!--<string name="powered_by_google">Powered by google</string>-->
+    <!--<string name="selected_symptoms">Selected Symptoms</string>-->
+    <string name="show_selected_symptoms">Show selected symptoms</string>
+    <string name="clear_all_selected_symptoms">Clear all selected symptoms</string>
+    <string name="selection_cleared">Selection cleared!</string>
+    <string name="disclaimer_conditions">
+        Based on the symptoms you entered, we have calculated matches for possible conditions.
+        The conditions are listed in order of how closely your symptoms match those conditions.
+        This information is meant to be informational, and is not intended as medical advice or a diagnosis.
+        Information you read here should not replace the advice of your healthcare provider.
+        You should always seek the advice of a qualified healthcare provider about any questions you may have about a medical condition.
+        As always, if you think you have a medical emergency you should call your doctor or the emergency services immediately.
+    </string>
+    <!--<string name="show_selected_conditions">Show selected conditions</string>-->
+    <string name="possible_conditions">Possible conditions</string>
+    <string name="show_selected_symptoms_header">Select a symptom to view its possible conditions\nOr click the button below to view the possible conditions for all the selected symptoms.</string>
+    <string name="change_text_size">Change text size</string>
+    <!--<string name="show_hospitals">Show hospitals</string>-->
+    <string name="always_improving">Always improving</string>
+    <!--<string name="jump_to_your_location">Jump to your location</string>-->
+    <string name="show_nearby_hospitals">Show nearby hospitals</string>
+    <!--<string name="emergency_number">Emergency number</string>-->
+    <!--<string name="pick_a_place">Pick a place</string>-->
+    <!--<string name="getting_directions_to_nearest_hospital">Getting directions to nearest hospital</string>-->
+    <!--<string name="finding_nearby_hospitals">Finding nearby hospitals</string>-->
+    <!--<string name="call_this_place">Call this place</string>-->
+    <string name="place_details">Place details</string>
+    <!--<string name="show_nearby_doctors">Show nearby doctors</string>-->
+    <!--<string name="name">Name</string>-->
+    <string name="address">Address</string>
+    <string name="website">Website</string>
+    <string name="url">URL</string>
+    <string name="photo">Photo</string>
+    <string name="phone_number_not_available">Phone number not available</string>
+    <string name="rating">Rating</string>
+    <string name="nearby_hospitals">Nearby hospitals</string>
+    <string name="nearby_doctors">Nearby Doctors</string>
+    <string name="nearest_hospital">Nearest Hospital</string>
+    <string name="call_emergency_services">Call Emergency services</string>
+    <string name="emergency_number">Emergency number</string>
+    <string name="or_call_emergency_services">OR CALL EMERGENCY SERVICES</string>
+    <string name="get_to_the_nearest_doctor">Get to the nearest doctor</string>
+    <string name="nearest_doctor">Nearest Doctor</string>
+    <string name="sorry">Sorry</string>
+    <string name="find_nearby_hospitals">Find nearby hospitals</string>
+    <string name="find_nearby_doctors">Find nearby doctors</string>
+    <string name="permission_granted">Permission Granted, Now you can use all the features!</string>
+    <string name="info">Info</string>
+    <string name="browse_all_conditions">Browse all conditions</string>
+    <!--<string name="loading_selected_condition">Loading selected condition…</string>-->
+    <string name="not_connected">Not Connected!</string>
+    <string name="not_connected_message">This app could not get Internet connectivity. Please make sure you are connected to the Internet.</string>
+    <string name="okay">Okay</string>
+    <string name="title_activity_parkingmaps">Map</string>
+</resources>

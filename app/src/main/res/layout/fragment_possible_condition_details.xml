@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/condition_details_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:visibility="invisible"
+    tools:context="com.prembros.symptomator.FirstAidCheck"
+    tools:ignore="Overdraw">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/selected_condition_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/decrease_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_decrease"
+            android:visibility="invisible"
+            app:backgroundTint="@color/colorSecondary"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_decrease"
+            tools:ignore="VectorDrawableCompat" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="100dp"
+            android:layout_height="54dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/increase_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_increase"
+            android:visibility="invisible"
+            app:backgroundTint="@color/colorSecondary"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_increase"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+</FrameLayout>

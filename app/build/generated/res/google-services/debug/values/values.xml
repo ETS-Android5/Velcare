@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">156291552317-n32s4gdu2e1q7lc9gqk5c89fmv0ul55s.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://velcare-56fde.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">156291552317</string>
+    <string name="google_api_key" translatable="false">AIzaSyA0o1E_53Ko3BFyCoWqJRfrXtim0tigMwQ</string>
+    <string name="google_app_id" translatable="false">1:156291552317:android:92fc8502ae9f5a3c7a8654</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0o1E_53Ko3BFyCoWqJRfrXtim0tigMwQ</string>
+    <string name="google_storage_bucket" translatable="false">velcare-56fde.appspot.com</string>
+    <string name="project_id" translatable="false">velcare-56fde</string>
+</resources>

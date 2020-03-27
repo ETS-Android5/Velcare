@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_by_symptom"
+        android:icon="@drawable/ic_lungs"
+        android:title="@string/symptom"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/navigation_by_first_aid"
+        android:icon="@drawable/ic_first_aid"
+        android:title="@string/first_aid_info"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_by_maps"
+        android:icon="@drawable/ic_stethoscope"
+        android:title="@string/services"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+</menu>

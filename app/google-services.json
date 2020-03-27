@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "156291552317",
+    "firebase_url": "https://velcare-56fde.firebaseio.com",
+    "project_id": "velcare-56fde",
+    "storage_bucket": "velcare-56fde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156291552317:android:92fc8502ae9f5a3c7a8654",
+        "android_client_info": {
+          "package_name": "com.prembros.symptomator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156291552317-1s6as8out3aijl3pb8da5k6jsjjqskqu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prembros.symptomator",
+            "certificate_hash": "ea4f2f2e2f0d1467d106bc29bac9404dc40cdc4a"
+          }
+        },
+        {
+          "client_id": "156291552317-n32s4gdu2e1q7lc9gqk5c89fmv0ul55s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0o1E_53Ko3BFyCoWqJRfrXtim0tigMwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156291552317-n32s4gdu2e1q7lc9gqk5c89fmv0ul55s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
