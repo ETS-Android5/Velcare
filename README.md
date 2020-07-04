@@ -2,7 +2,7 @@
 
 I have developed an Android application that can help to solve the toll problems faced in India.
 
-Basically what I'm doing is, Clicking the picture of the vehicle Number plate and applying Optical Character Recognition to fetch the text from the image and then from the database grabbing the Vehicle information. 
+Primarily what I'm doing is, Clicking the picture of the vehicle Number plate and applying Optical Character Recognition to fetch the text from the image and then from the database grabbing the Vehicle information. 
 Using that information I'll notify the user by sending SMS that he has to pay the toll.
 Users can use the app to pay the payment using any UPI method.
 
